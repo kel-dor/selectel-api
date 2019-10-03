@@ -21,7 +21,7 @@ In the interactive mode you should simply type "-g" if you want the files list, 
 to upload the file. Also you can pass these options in the one-command mode, in the same way as "-i" above.
 
 The full help:
-
+```
 docker run --env-file env.list -i -v [local directory]:/selectel/shared \
         [container name] [-c [file1 [file2 ...]]] [-d [file1 [file2 ...]]] \
         [-g [dir]] [--ls [dir]] [-r [file1 [file2 ...]]] [-t dir] \
@@ -51,3 +51,4 @@ docker run --env-file env.list -i -v [local directory]:/selectel/shared \
   -s, --switch          switch to another container
   -q, --quit            leave interactive mode and exit
   -z, --zip             download file/directory as an archive
+```
